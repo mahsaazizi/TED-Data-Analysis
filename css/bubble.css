@@ -1,0 +1,78 @@
+text{
+        text-shadow:none;
+        
+}		
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #D4D8DA;
+			shape-rendering: crispEdges;
+
+		}
+		.axis text {
+			font-size: 14px;
+			fill: #081F2C;
+                        font-weight: bold;
+                        text-shadow:none;
+		}
+		.countries {
+			pointer-events: none;
+                        
+		}
+		.circle-wrapper {
+			fill: none;
+			pointer-events: all;
+                        cursor: pointer;
+		}
+		.guide {
+			pointer-events: none;
+			font-size: 14px;
+			font-weight: 600;
+		}	
+		.popover {
+			pointer-events: none;
+                        white-space: pre-line;
+                        color: black;
+                        text-shadow:none;
+		}
+                .popover span span{
+                    font-weight: 700;
+                }
+		.legendLine {
+			stroke-width: 1;
+			stroke: #D1D1D1;
+			shape-rendering: crispEdges;
+		}
+		.legendTitle {
+			fill: #081F2C;
+			color: #1A1A1A;
+			text-anchor: middle;
+			font-size: 11px;
+                        margin-top: 90px;
+                        padding-right: 30px;
+                            text-shadow:none;
+		}
+		.legendText {
+			fill:  #081F2C;
+			text-anchor: end;
+		}
+                #legend{
+
+                    margin-top: 0px;
+                }
+                .col-sm-3, .col-sm-9 {
+			float: left;
+		  }
+		@media (min-width: 500px) {
+		  .col-sm-3, .col-sm-9 {
+			float: left;
+		  }
+		  .col-sm-9 {
+			width: 75%;
+		  }
+		  .col-sm-3 {
+			width: 25%;
+		  }
+		}
+               
+                

@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+            <title>Mahsa Azizi - Web & Graphic Designer</title>
+            <meta charset="utf-8" />
+            <meta name="description" content="Mahsa Azizi Website. Web and Graphic Designer">
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <script src="https://d3js.org/d3.v4.min.js"></script>
+            <script src="js/modernizr-custom.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+          
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">           
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,500,700" rel="stylesheet">
+            <link rel="icon" href="images/icon.png">
+            <link rel="stylesheet" type="text/css" href="imp.css" />
+            <link rel="stylesheet" href="css/style.css">
+            <link type="text/css" rel="stylesheet" href="css/bubble.css"/>
+            <link type="text/css" rel="stylesheet" href="css/barchart.css"/>
+            
+	</head>
+	<body>
+            	  <div id="startchange"></div>
+            <hidden id="myBtn"></hidden>
+
+          <nav id="nav2" class="navi2">
+                <ul class="menu2">
+                        <li><a href="#about">TAGS</a></li>
+                	<li><a href="speakers.html">SPEAKERS</a></li>
+			<li><a href="correlations.html">CORRELATIONS</a></li>
+                        <li><a href="tables.html">TABLES</a></li>
+                </ul>
+            </nav>
+            <div id="mainbody">                                                                                                                                                                                                                                                                                   
+		<div id="main">
+                    <section id="about" class="main">
+			<div class="code">
+                            <div class="content">
+				<header class="head">
+                                    <h1><span class="big"><span class="color" style="color:rgb(179, 0, 0)">TED</span> Data Analysis and Visualization</span></h1>
+                                    <h1 style='border-bottom: none'><span class="color" >Top Five Tags</span></h1>
+                                    
+                                    <p>
+                                     
+                                   <br><br><span class="color">Scroll</span> To See The Analysis<br><br>
+
+                <nav id="nav" class="navi">
+                    <ul class="menu">
+                                    <li><a href="#cv" class="active"><span class="color"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></span></a></li>
+</ul>
+            </nav>
+                                </p>
+                                
+				</header>
+				
+                            </div>
+                            
+			</div>
+                        <div id="empty"></div>
+                    </section>
+                    <!--///////////////////////////////////////////////////////////////////////Section two////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+                    <section id="cv" class="main special" style="background:rgba(230, 230, 230,1);min-height: 1500px">
+                        <div>
+                            <h2 style="color: #000;text-shadow:none">Five Most Popular Tags</h2>
+                            <div id="cont" class="container-fluid text-center" style="background:#fff;margin-left: 20px;border-radius:10px;box-shadow: 0px 6px 4px #b3b3b3;">
+		<div class="row scatter" >
+                    <h4 style="color: #666666;text-shadow:none;margin-top: 20px;">Views vs. Published Year of 10 Most Viewed Videos of Each Popular Tag</h4>
+                    <h5 style="color: #666666;text-shadow:none;letter-spacing: 0.5px">(radius of circle represents duration of video)</h5>
+
+                    <div class="col-sm-10" style="float: left; width: 950px;">
+                        <div id="chart"></div>
+                    </div>
+                    
+                     
+                    <div id = "legend" class="col-sm-2" style="padding-left: 0px; float: left;">
+                        <div class="legendTitle" style="font-size: 14px;font-weight:bold">TAGS</div>
+			<div id="legend"></div>                                                             
+                    </div>
+		</div> 
+            
+	</div>
+                            
+                            <div class="col-sm-5" style="background:#fff;margin-top: 30px;margin-right: 213px;margin-left: 20px;border-radius:10px;box-shadow: 0px 6px 4px #b3b3b3;">
+                                
+                                <h4 style="color: #666666;text-shadow:none;margin-top: 20px;letter-spacing: 0.5px">The Frequency of 5 Most Repeated Tags</h4>
+                        <div id="barchart"></div>
+           </div> 
+                        <div class="col-sm-5" style="background:#fff;margin-top: 30px;border-radius:10px;box-shadow: 0px 6px 4px #b3b3b3;">
+                            <h4 style="color: #666666;text-shadow:none;margin-top: 20px;letter-spacing: 0.5px">Total View of 5 Most Repeated Tags</h4>
+                       <div id="barchart2"></div>
+                        </div>
+                           <div class="col-sm-12" style="background:#fff;margin-top: 30px;border-radius:10px;margin-left: 10px;box-shadow: 0px 6px 4px #b3b3b3;">
+                               <h4 style="color: #666666;text-shadow:none;margin-top: 20px;letter-spacing: 0.5px">The Frequency of 10 Least Repeated Tags</h4>
+                       <div id="barchart3"></div>
+                        </div> 
+                            
+                        </div>
+                        <div id="empty2"></div>
+                    </section>
+<!--///////////////////////////////////////////////////////////////////////Section two ends////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+		</div>
+            </div>
+          <!-- The Modal -->
+    <div id="myModal" class="modal" style="text-align:center;">
+        <!-- Modal content -->
+        <div class="modal-content" >
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 style="margin-top:20px">We Welcome Your Feedback</h2>
+            </div>
+            <div class="modal-body">
+                <div id="pg1" style="margin:40px 0px;font-size:20px">
+                    Help us improve your experience by taking our short survey.
+                    <div></div>
+                    <a class="btn btn-primary btn-sm" href="survey.html" role="button" style="background:#0f6177;color:#fff;margin-top:30px;padding:10px 20px;font-size:14px;font-weight:bold;border-radius:6px">Give Feedback</a>  
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h5>Thanks from MADMUC Lab</h5>
+            </div>
+        </div>
+    </div>
+            <script src="js/jquery.min.js"></script>
+            <script src="jquery.combinedScroll.js"></script>           
+            <script src="js/worldbank.js"></script>
+            <script src="js/bubble.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/barchart.js"></script>
+            <script src="js/barchart2.js"></script>
+            <script src="js/barchart3.js"></script>
+            <script type="text/javascript">
+                jQuery.noConflict();
+jQuery(document).ready(function($){
+$('.navi').onePageNav();
+var scroll_start=0;
+var startchange=$('#startchange');
+var offset=startchange.offset();
+$(document).scroll(function(){
+scroll_start=$(this).scrollTop(); 
+if(scroll_start > offset.top){
+$('#nav2').css('background-color', '#353535');}
+else{
+$('#nav2').css('background-color', 'transparent');}});
+});
+</script>
+
+	</body>
+</html>

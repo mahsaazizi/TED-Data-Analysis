@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MADMUC LAB VIZ-WALL Survey</title>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="viewarea" style="background:#0f6177;color:#fff;font-size:20px">
+
+    <form class="form-horizontal" method="post" action="thanks.php">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend style="color:#fff;text-align: center;margin:40px 0px">MADMUC Survey</legend>
+
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group" style='margin-top: 100px;font-size:20px'>
+                <label class="col-md-4 control-label" for="user">You are a</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="user-0">
+                    <input name="user" id="user-0" value="1" checked="checked" type="radio">
+                    Viewer
+                    </label>
+                    <label class="radio-inline" for="user-1">
+                    <input name="user" id="user-1" value="2" type="radio">
+                    Presenter
+                    </label>
+                    <label class="radio-inline" for="user-2">
+                    <input name="user" id="user-2" value="3" type="radio">
+                    Both
+                    </label>
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="page">The page is</label>
+                <div class="col-md-4">
+                    <select id="page" name="page" class="form-control">
+                    <option value="1">Informative</option>
+                    <option value="2">Needs improvement</option>
+                    <option value="3">Not reliable</option>
+                    <option value="4">Misleading</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="email">Email</label>
+                <div class="col-md-4">
+                    <input id="email" name="email" placeholder="name@mail.com" class="form-control input-md" required="" type="text">
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+                <div class="col-md-4">
+                    <input type="submit" id="submit" name="submit" class="btn btn-primary" style="background:#fff;color:#0f6177;font-weight:bold;padding:10px 20px"></button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
